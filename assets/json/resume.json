@@ -1,200 +1,518 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Aditya Mohan",
+      "label": "PhD Student at Binghamton University | High-Performance Computing | Computer Architecture",
+      "image": "",
+      "email": "adityamohan885@gmail.com",
+      "phone": "6073528707",
+      "url": "",
+      "summary": "Hi there! \n\nI'm an avid computer science practitioner, currently pursuing a doctoral degree focusing on solving issues at the intersection of computer architecture and high-performance computing.\n \nI have previously worked in a document intelligence startup. My responsibilities included designing an in-house OCR (Optical Character Recognition) engine and developing solutions for information extraction from complex financial documents. I also interned as a Data Scientist at HID Global in Austin, TX during the summer of 2023. At HID, I worked on curating datasets and developing data pipelines for person re-identification.\n\nMost recently, I have started working with computer architecture problems and I’m currently looking into how architectural choices affect high-performance computing. I am working under the guidance of Prof. Kanad Ghose at Binghamton University.",
+      "location": {
+        "countryCode": "US",
+        "address": "United States"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "mohan-aditya05",
+          "url": "https://www.linkedin.com/in/mohan-aditya05/"
+        }
+      ]
     },
-    "profiles": [
+    "work": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "name": "The Research Foundation for SUNY",
+        "position": "Research Project Assistant",
+        "startDate": "2024-06-30",
+        "endDate": "",
+        "highlights": [],
+        "url": "https://www.linkedin.com/company/rfsuny/",
+        "location": "Vestal, New York, United States"
+      },
+      {
+        "name": "HID",
+        "position": "Data Scientist Intern",
+        "startDate": "2023-05-31",
+        "endDate": "2023-10-31",
+        "highlights": [],
+        "summary": "- Implemented the complete standardized data pipeline for 17 open-source re-identification (ReID) datasets that collectively contained around a million images using Python and PyTorch. \n- Performed image feature similarity analysis on the ReID dataset and developed informative data visualizations.\n- Developed an application to enroll a person by capturing their pictures for a facial recognition system using Streamlit.\n- Researched methods to deploy deep learning models in Android and iOS apps and the ways to leverage various accelerators present on the devices. \n- Data collection and analysis of accelerometer and gyroscope data regarding human activity (walking, back-taps) from iOS and Android devices. \n- Reviewing newer datasets and methods for Person ReID and presenting findings in weekly research meetings. \n- Collated and implemented different loss functions for the Person ReID task using Python and PyTorch.",
+        "url": "https://www.linkedin.com/company/hidglobal/",
+        "location": "Austin, Texas, United States"
+      },
+      {
+        "name": "Thomas J. Watson College of Engineering and Applied Science, Binghamton University",
+        "position": "Graduate Assistant",
+        "startDate": "2022-08-31",
+        "endDate": "2023-05-31",
+        "highlights": [],
+        "summary": "- Awarded funding under SUNY SPIR program (Strategic Partnership for Industrial Resurgence).\n- Working under the supervision of Prof. Kenneth Chiu. \n- Researching gamification methods to instill energy-efficient behaviors in consumers. This research is being carried out in collaboration with ThermoAI.\n- Performing data analysis and studying usage patterns on the energy usage data of about 40 residential buildings at Binghamton Univ. that houses around 14000 students.",
+        "url": "https://www.linkedin.com/school/watson-college/",
+        "location": "Binghamton, New York, United States"
+      },
+      {
+        "name": "Egregore Labs - Robana & Romulus",
+        "position": "Analyst Developer",
+        "startDate": "2020-10-31",
+        "endDate": "2021-12-31",
+        "highlights": [],
+        "summary": "- Researched and developed the in-house OCR engine for scanned financial documents and achieved 90% accuracy as compared to AWS Textract using Python, Tensorflow, and Flask.\n- Implemented the intelligent document information extraction pipeline feature with a dual approval system which handled thousands of documents with over 50 points of information to be collected using Postgresql, SqlAlchemy, Flask, and Pattern Recognition.\n- Brainstormed and worked on a pilot project based on automating the extraction of data from complex financial documents for one of the largest P&C insurance company. Lead the development and planning of backend APIs required for the human-in-the-loop version of the same product. (Python, Flask)\n- Worked on the development of modules for OCR and document classification for an AI-driven enterprise solution that automated document processing & surfaced critical insights which enabled quicker & better decisions.",
+        "url": "https://www.linkedin.com/company/egregore-labs/",
+        "location": "New Delhi, Delhi, India"
+      },
+      {
+        "name": "Infosys",
+        "position": "Systems Engineer Trainee",
+        "startDate": "2020-02-28",
+        "endDate": "2020-03-31",
+        "highlights": [],
+        "summary": "- Abruptly ended due to COVID-19 pandemic",
+        "url": "https://www.linkedin.com/company/infosys/",
+        "location": "Mysore, Karnataka, India"
+      },
+      {
+        "name": "HCL Technologies",
+        "position": "Deep Learning Intern",
+        "startDate": "2019-05-31",
+        "endDate": "2019-07-31",
+        "highlights": [],
+        "summary": "Developed a new solution for the detection and classification of damaged carton boxes, the type of damage, and the severity of damage in warehouses using different convolutional neural network architectures. Also performed online scraping and manual collection of images to build the dataset.",
+        "url": "https://www.linkedin.com/company/hcltech/",
+        "location": "Remote"
+      },
+      {
+        "name": "Azuratech LLP",
+        "position": "Data Scientist Intern",
+        "startDate": "2018-12-31",
+        "endDate": "2019-01-31",
+        "highlights": [],
+        "summary": "- Generated insights and data visualization reports based on real-time data from non-relational databases.\n- Automated the process of the creation of reports.",
+        "url": "https://www.linkedin.com/company/volumetreetech/",
+        "location": "Chandigarh Area, India"
       }
-    ]
-  },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+    ],
+    "volunteer": [
+      {
+        "organization": "JUIT Youth Club, JYC",
+        "position": "Photography Club Coordinator",
+        "startDate": "2018-09-30",
+        "endDate": "2019-08-31",
+        "summary": null,
+        "highlights": [],
+        "url": "https://www.linkedin.com/company/14422892"
+      },
+      {
+        "organization": "JUIT Youth Club, JYC",
+        "position": "Member",
+        "startDate": "2016-09-30",
+        "endDate": "2018-08-31",
+        "summary": "Photography club member. ",
+        "highlights": [],
+        "url": "https://www.linkedin.com/company/14422892"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Binghamton University",
+        "area": "Computer Science",
+        "studyType": "Doctor of Philosophy - PhD",
+        "startDate": "2024-01-31",
+        "endDate": "",
+        "score": "3.97",
+        "courses": []
+      },
+      {
+        "institution": "Binghamton University",
+        "area": "Computer Science",
+        "studyType": "Master's degree",
+        "startDate": "2022-01-31",
+        "endDate": "2023-12-31",
+        "score": "3.97",
+        "courses": [
+          "CS 540 - Advanced Topics in Object Oriented Programming",
+          "CS 555 - Intro to Visual Information Processing",
+          "CS 597 - Reinforcement Learning ",
+          "CS 547 - High Performance Computing",
+          "CS 542 - Design Patterns"
+        ]
+      },
+      {
+        "institution": "Jaypee University of Information Technology",
+        "area": "Computer Science",
+        "studyType": "Bachelor of Technology - BTech",
+        "startDate": "2016-07-31",
+        "endDate": "2020-07-31",
+        "score": "",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "certificates": [
+      {
+        "name": "Sequence Models",
+        "issuer": "Coursera",
+        "startDate": "2020-05-31",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/G2MCZLVETHNE"
+      },
+      {
+        "name": "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+        "issuer": "Coursera",
+        "startDate": "2020-05-31",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/T8MDTGAN3R8P"
+      },
+      {
+        "name": "Responsive Web Design",
+        "issuer": "Coursera",
+        "startDate": "2018-01-31",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/BXTC55KB9TST"
+      },
+      {
+        "name": "Responsive Website Basics: Code with HTML, CSS, and JavaScript ",
+        "issuer": "Coursera",
+        "startDate": "2018-01-31",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/GGZRCUAAMTHF"
+      },
+      {
+        "name": "Natural Language Processing in TensorFlow",
+        "issuer": "Coursera",
+        "startDate": "2020-05-31",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/GJUPTM8DKL8K"
+      },
+      {
+        "name": "Convolutional Neural Networks in TensorFlow",
+        "issuer": "Coursera",
+        "startDate": "2020-05-31",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/3VY2K5NAGTHB"
+      },
+      {
+        "name": "Sequences, Time Series and Prediction",
+        "issuer": "Coursera",
+        "startDate": "2020-05-31",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/96YH8VUCFWL6"
+      },
+      {
+        "name": "Deeplearning.ai TensorFlow Developer",
+        "issuer": "Coursera",
+        "startDate": "2020-05-31",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/2ZHAVGEYJKKA"
+      },
+      {
+        "name": "Convolutional Neural Networks",
+        "issuer": "Coursera",
+        "startDate": "2020-06-30",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/ZQWLE7BD6H8P"
+      },
+      {
+        "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+        "issuer": "Coursera",
+        "startDate": "2020-06-30",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/SQ4666NR5HK6"
+      }
+    ],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Rust (Programming Language)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "MongoDB",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Python",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "C++",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Volumetree ",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "SQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Natural Language Processing (NLP)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Digital Image Processing",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Reinforcement Learning",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Research Skills",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "C (Programming Language)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "High Performance Computing (HPC)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Data Structures",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "JavaScript",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "NumPy",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "FastAPI",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Slurm Workload Manager",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Design Patterns",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Deep Learning",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Convolutional Neural Networks (CNN)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "PyMongo",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "PyTorch",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Computer Vision",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Git",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "CUDA",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Data Visualization",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Self Promotion",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "MySQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Database Management System (DBMS)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Flask",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Pitching Ideas",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Open-Source Software",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Machine Learning",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Data Analytics",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Python (Programming Language)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "HTML",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Computer Architecture",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "TensorFlow",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Data Science",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Neural Networks",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Java",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Operating Systems",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Linux",
+        "level": "",
+        "keywords": []
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native Speaker"
+      }
+    ],
+    "interests": [],
+    "references": [
+      {
+        "name": "Hari Balaji",
+        "reference": "I see Aditya as a great blend of strong technical fundamentals and practical thinking that is needed to solve real world problems and to get things done. He is able to build trust quickly through the high quality work that he delivers time and time again. I wish him the very best with his future endeavours."
+      },
+      {
+        "name": "Bhushan Pant",
+        "reference": "Aditya was one of the most committed professionals through his work at Romulus. He is a detail-oriented, goal-oriented, ambitious and strong co-worker, his knowledge is vast and extensive. He is not only a reliable and forward-thinking machine learning engineer but also an inspiring team player. Aditya will find a way to weather any storm with a smile. He absolutely shines in a hectic environment. Definitely worth recommending."
+      },
+      {
+        "name": "Arunav Shandilya",
+        "reference": "Aditya and I worked in the same team for an year, I was quite impressed by his autonomy, enthusiasm to learn. He holds strong knowledge in data science and machine learning and demonstrated strong coding skills. I found him passionate and sincere about his objectives. I wish him all the very best for future endeavors"
+      }
+    ],
+    "projects": [
+      {
+        "name": "A Neural Network Implementation in CUDA",
+        "startDate": "2023-04-30",
+        "summary": "• Implemented from scratch various neural network-related modules in CUDA. Trained a network of fully connected layers on the MNIST dataset for image classification.\n• Achieved 3x performance improvement as compared to sequential neural network implementation which only used CPU for training.",
+        "url": "https://github.com/mohan-aditya05/cuda_neural_nets",
+        "endDate": "2023-05-31"
+      },
+      {
+        "name": "An Out-of-Order Processor Simulator",
+        "startDate": "2022-11-30",
+        "summary": "Implemented a simulator in C programming language for an out-of-order processor. This out-of-order processor simulator is comprised of register renaming, load-store queue, issue queue, and a reorder buffer as well. A static branch prediction was added as well in the form of a small BTB.",
+        "url": "https://github.com/mohan-aditya05/apex_out_of_order_proc",
+        "endDate": "2022-12-31"
+      },
+      {
+        "name": "Image Captioning using NeuralNets",
+        "startDate": "2019-07-31",
+        "summary": "Describing an image with a caption in natural language. The description captures not only the objects contained in an image, but it also must express how these objects relate to each other. ",
+        "url": "http://image-generator-flask.herokuapp.com/",
+        "endDate": "2020-07-31"
+      },
+      {
+        "name": "Damaged Carton Box Detection",
+        "startDate": "2019-05-31",
+        "summary": "Working upon detection of damaged carton boxes in warehouses and fulfillment centres. Studying the types of damage of carton boxes and the degree of damage. ",
+        "url": "http://www.github.com/mohan-aditya05/damaged-carton-box-detection",
+        "endDate": "2019-10-31"
+      },
+      {
+        "name": "Data Analytics for Nurses Online Project",
+        "startDate": "2018-12-31",
+        "summary": null,
+        "url": null,
+        "endDate": "2019-01-31"
+      },
+      {
+        "name": "Multi-Process Chatroom using Linux Character Devices",
+        "startDate": "",
+        "summary": "Implemented a multi-process chatroom by designing a custom linux character device. ",
+        "url": "https://github.com/mohan-aditya05/multi_process_chatroom"
+      }
+    ],
+    "meta": {
+      "version": "v1.0.0",
+      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
-}
+  }
