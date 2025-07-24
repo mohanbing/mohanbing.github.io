@@ -27,6 +27,7 @@
         "startDate": "2024-06-30",
         "endDate": "",
         "highlights": [],
+        "summary": "Working on developing a design-space exploration tool-suite to research efficient designs of heterogeneously integrated AI accelerator systems in partnership with IBM Research (SUNY-IBM AI Research Alliance).\nDeveloping an AI Accelerator simulator that models memory traffic, interconnect traffic, mapping workloads onto different compute and allows to study the compute efficiency of the hardware for various AI workloads, especially foundational model workloads (C++).\nDeveloped and modeled multiple levels of double-buffered vector cache hierarchy with hardware prefetching.\nDeveloped a simple mapping strategy that maps a given neural network graph onto different compute. The tool supports modular mapping generation.\nDeveloped a pseudo-instruction set that allows for the generation of low-level instructions for the compute to process.\nThis research effort involves modeling different components of a System-In-Package (SiP) along with HBM memory",
         "url": "https://www.linkedin.com/company/rfsuny/",
         "location": "Vestal, New York, United States"
       },
