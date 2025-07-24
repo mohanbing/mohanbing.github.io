@@ -29,7 +29,7 @@
         "highlights": [],
         "summary": "Working on developing a design-space exploration tool-suite to research efficient designs of heterogeneously integrated AI accelerator systems in partnership with IBM Research (SUNY-IBM AI Research Alliance).\nDeveloping an AI Accelerator simulator that models memory traffic, interconnect traffic, mapping workloads onto different compute and allows to study the compute efficiency of the hardware for various AI workloads, especially foundational model workloads (C++).\nDeveloped and modeled multiple levels of double-buffered vector cache hierarchy with hardware prefetching.\nDeveloped a simple mapping strategy that maps a given neural network graph onto different compute. The tool supports modular mapping generation.\nDeveloped a pseudo-instruction set that allows for the generation of low-level instructions for the compute to process.\nThis research effort involves modeling different components of a System-In-Package (SiP) along with HBM memory",
         "url": "https://www.linkedin.com/company/rfsuny/",
-        "location": "Vestal, New York, United States"
+        "location": "Vestal, New York"
       },
       {
         "name": "HID",
@@ -39,7 +39,7 @@
         "highlights": [],
         "summary": "- Implemented the complete standardized data pipeline for 17 open-source re-identification (ReID) datasets that collectively contained around a million images using Python and PyTorch. \n- Performed image feature similarity analysis on the ReID dataset and developed informative data visualizations.\n- Developed an application to enroll a person by capturing their pictures for a facial recognition system using Streamlit.\n- Researched methods to deploy deep learning models in Android and iOS apps and the ways to leverage various accelerators present on the devices. \n- Data collection and analysis of accelerometer and gyroscope data regarding human activity (walking, back-taps) from iOS and Android devices. \n- Reviewing newer datasets and methods for Person ReID and presenting findings in weekly research meetings. \n- Collated and implemented different loss functions for the Person ReID task using Python and PyTorch.",
         "url": "https://www.linkedin.com/company/hidglobal/",
-        "location": "Austin, Texas, United States"
+        "location": "Austin, Texas"
       },
       {
         "name": "Thomas J. Watson College of Engineering and Applied Science, Binghamton University",
@@ -49,7 +49,7 @@
         "highlights": [],
         "summary": "- Awarded funding under SUNY SPIR program (Strategic Partnership for Industrial Resurgence).\n- Working under the supervision of Prof. Kenneth Chiu. \n- Researching gamification methods to instill energy-efficient behaviors in consumers. This research is being carried out in collaboration with ThermoAI.\n- Performing data analysis and studying usage patterns on the energy usage data of about 40 residential buildings at Binghamton Univ. that houses around 14000 students.",
         "url": "https://www.linkedin.com/school/watson-college/",
-        "location": "Binghamton, New York, United States"
+        "location": "Binghamton, New York"
       },
       {
         "name": "Egregore Labs - Robana & Romulus",
@@ -59,7 +59,7 @@
         "highlights": [],
         "summary": "- Researched and developed the in-house OCR engine for scanned financial documents and achieved 90% accuracy as compared to AWS Textract using Python, Tensorflow, and Flask.\n- Implemented the intelligent document information extraction pipeline feature with a dual approval system which handled thousands of documents with over 50 points of information to be collected using Postgresql, SqlAlchemy, Flask, and Pattern Recognition.\n- Brainstormed and worked on a pilot project based on automating the extraction of data from complex financial documents for one of the largest P&C insurance company. Lead the development and planning of backend APIs required for the human-in-the-loop version of the same product. (Python, Flask)\n- Worked on the development of modules for OCR and document classification for an AI-driven enterprise solution that automated document processing & surfaced critical insights which enabled quicker & better decisions.",
         "url": "https://www.linkedin.com/company/egregore-labs/",
-        "location": "New Delhi, Delhi, India"
+        "location": "New Delhi, India"
       },
       {
         "name": "Infosys",
@@ -69,7 +69,7 @@
         "highlights": [],
         "summary": "- Abruptly ended due to COVID-19 pandemic",
         "url": "https://www.linkedin.com/company/infosys/",
-        "location": "Mysore, Karnataka, India"
+        "location": "Mysore, India"
       },
       {
         "name": "HCL Technologies",
